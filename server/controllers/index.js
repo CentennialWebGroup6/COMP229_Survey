@@ -100,7 +100,7 @@ module.exports.processLoginPage = (req, res, next) => {
             }
 
             const authToken = jwt.sign(payload, DB.Secret, {
-                expiresIn: 604800 // 1 week
+                expiresIn: 5 // 1 week
            });
 
             /* TODO - Getting Ready to convert to API
