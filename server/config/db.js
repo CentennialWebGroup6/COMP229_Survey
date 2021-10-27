@@ -1,6 +1,6 @@
 module.exports = 
 {
     //"URI": "mongodb://localhost/business_contact"
-    "URI": "mongodb+srv://1234:1234@cluster0.vq5ki.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "URI": "mongodb+srv://1234:1234@cluster0.1kc3i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     "Secret": 'SomeSecret'
 }
